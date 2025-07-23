@@ -48,8 +48,8 @@ while not word_complete:
 
     if hangman_index == len(HANGMANPICS) - 1:
         print("You lost!")
-        break
+        word_complete = True
 
 if word_complete:
     print("You won!")
-    print("The word was " + "".join(guessed_letters))
+    print("The word was " + user_word)

@@ -44,8 +44,7 @@ while not word_complete:
     if "_" not in guessed_letters:
         print("You Won!")
         word_complete = True
-    else:
-        word_complete = False
+
 
     if hangman_index == len(HANGMANPICS) - 1:
         print("You lost!")

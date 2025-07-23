@@ -41,15 +41,14 @@ while not word_complete:
 
     print("".join(guessed_letters))
 
-    if "_" in guessed_letters:
-        word_complete = False
-    else:
+    if "_" not in guessed_letters:
+        print("You Won!")
         word_complete = True
+    else:
+        word_complete = False
 
     if hangman_index == len(HANGMANPICS) - 1:
         print("You lost!")
         word_complete = True
 
-if word_complete:
-    print("You won!")
-    print("The word was " + user_word)
+print("The word was " + user_word)

@@ -10,7 +10,7 @@ def multiply(n1, n2):
 def divide(n1, n2):
     return n1 / n2
 
-
+# operation key is the symbol and value is the function
 operations = {
     "+": add,
     "-": subtract,

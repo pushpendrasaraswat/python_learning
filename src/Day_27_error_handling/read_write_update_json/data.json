@@ -1,0 +1,18 @@
+{
+    "google": {
+        "email": "google@google.com",
+        "password": "vQ4&%*7!p2C1N9)"
+    },
+    "EPM": {
+        "email": "test@epam.com",
+        "password": "9ywf9d$5L&18$8#%(W"
+    },
+    "facebook": {
+        "email": "test@facebook.com",
+        "password": "()2S67)gz"
+    },
+    "deloitte": {
+        "email": "del@del.com",
+        "password": "cen%Y06#3&9%"
+    }
+}

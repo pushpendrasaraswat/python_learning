@@ -62,3 +62,4 @@ src/Day 16-100/Where are the rest of the days/.DS_Store
 .idea/misc.xml
 src/Day 7/task/.DS_Store
 *.pyc
+.env
